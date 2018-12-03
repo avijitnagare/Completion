@@ -13,6 +13,8 @@
 		0473AF4821B29421002396D7 /* Completion.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0473AF4621B29421002396D7 /* Completion.xcdatamodeld */; };
 		0473AF4A21B29422002396D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0473AF4921B29422002396D7 /* Assets.xcassets */; };
 		0473AF4D21B29422002396D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0473AF4B21B29422002396D7 /* LaunchScreen.storyboard */; };
+		0473AF5521B2944C002396D7 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473AF5421B2944C002396D7 /* ViewModel.swift */; };
+		0473AF5721B2974F002396D7 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473AF5621B2974F002396D7 /* Client.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		0473AF4921B29422002396D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0473AF4C21B29422002396D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0473AF4E21B29422002396D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0473AF5421B2944C002396D7 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		0473AF5621B2974F002396D7 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				0473AF4B21B29422002396D7 /* LaunchScreen.storyboard */,
 				0473AF4E21B29422002396D7 /* Info.plist */,
 				0473AF4621B29421002396D7 /* Completion.xcdatamodeld */,
+				0473AF5421B2944C002396D7 /* ViewModel.swift */,
+				0473AF5621B2974F002396D7 /* Client.swift */,
 			);
 			path = Completion;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			files = (
 				0473AF4221B29421002396D7 /* ViewController.swift in Sources */,
 				0473AF4021B29421002396D7 /* AppDelegate.swift in Sources */,
+				0473AF5521B2944C002396D7 /* ViewModel.swift in Sources */,
+				0473AF5721B2974F002396D7 /* Client.swift in Sources */,
 				0473AF4821B29421002396D7 /* Completion.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,7 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DF2K5A4XKZ;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Completion/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,7 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DF2K5A4XKZ;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Completion/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
